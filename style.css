@@ -310,9 +310,12 @@ p {
 	z-index: -1;
 }
 #services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
+	max-width: 5%;
 	margin-bottom: 20px;
+	display: inline-block;
+}
+.service-item h2 {
+	display: inline-block;
 }
 #services .service-item h2 {
 	font-size: 2rem;
@@ -320,9 +323,12 @@ p {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#services .service-item p {
+#services .service-item li {
 	color: white;
 	text-align: left;
+	font-size: 18px;
+	margin-left: 20px;
+	font-weight: 500;
 }
 /* End Services Section */
 
@@ -374,6 +380,11 @@ p {
 }
 #projects .project-info p {
 	color: white;
+}
+#projects .project-info a {
+	color: aqua;
+	font-size: 18px;
+	margin-top: 8px;
 }
 #projects .project-img {
 	flex-basis: 50%;
